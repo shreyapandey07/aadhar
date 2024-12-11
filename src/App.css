@@ -1,0 +1,123 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff; /* Set background color to white */
+  color: #333; /* Default text color */
+}
+
+/* Header Section */
+header {
+  background-color: #ffffff; /* Set header background to white */
+  color: #1a73e8; /* Ensure text is visible */
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd; /* Optional border for separation */
+}
+
+/* Navbar Section */
+.navbar {
+  background-color: #ffffff; /* Set navbar background to white */
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  border-bottom: 1px solid #ddd; /* Optional border for separation */
+}
+
+/* Navbar Links */
+.navbar a {
+  color: #1a73e8; /* Text color for navbar links */
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Search Bar */
+.navbar .search-container input[type="text"] {
+  padding: 0.25rem 0.5rem;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  color: #333;
+  margin-right: 0.5rem;
+  outline: none;
+  border-radius: 3px;
+}
+
+.navbar .search-container button {
+  padding: 0.25rem 0.5rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.navbar .search-container button:hover {
+  background-color: #005f9e;
+}
+
+/* Aadhaar Section */
+.aadhaar-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #ffffff; /* White background */
+  color: #333;
+}
+
+.column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #1a73e8;
+}
+
+.column ul li {
+  margin: 0.5rem 0;
+  color: #333;
+  cursor: pointer;
+}
+
+.column ul li:hover {
+  text-decoration: underline;
+  color: #1a73e8;
+}
+
+/* Info Cards Section */
+.info-card {
+  background-color: #ffffff; /* White card background */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #333;
+}
+
+.info-card h3 {
+  color: #1a73e8;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f7f7f7; /* Light gray footer background */
+  color: #333;
+  padding: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Enables JSX support in TSX files
+    "moduleResolution": "node", // Properly resolves modules
+    "target": "esnext", // Modern JavaScript support
+    "module": "esnext",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": [ "react", "react-dom", "react-router-dom"]
+  },
+  "include": ["src/**/*"], // Include all files in src
+      // Exclude node_modules
+   
+}
+
